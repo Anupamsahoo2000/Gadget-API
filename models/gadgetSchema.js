@@ -18,6 +18,7 @@ const Gadget = sequelize.define("Gadget", {
       "Destroyed",
       "Decommissioned"
     ),
+    defaultValue: "Available",
   },
 });
 
