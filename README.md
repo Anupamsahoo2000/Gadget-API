@@ -7,7 +7,7 @@ Base URL: https://gadget-api-eass.onrender.com
 ### Get all Gadgets
 
 ```http
-  GET https://gadget-api-eass.onrender.com/gadgets
+   https://gadget-api-eass.onrender.com/gadgets
 ```
 
 | Method | Description                                                    |
