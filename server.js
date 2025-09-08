@@ -13,6 +13,10 @@ app.use("/gadgets", gadgets);
 
 const PORT = process.env.PORT || 5000;
 
+app.get("/", (req, res) => {
+  res.send("Welcome to Gadget Management API");
+});
+
 app.listen(PORT, () => {
   console.log(`server is running on port ${PORT}`);
 });

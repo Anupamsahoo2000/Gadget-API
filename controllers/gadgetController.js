@@ -34,6 +34,8 @@ const createGadget = async (req, res) => {
       "The Dragon",
     ];
     const gadget = await Gadget.create({
+      //...req.body,
+      status: req.body.status,
       name: names[Math.floor(Math.random() * names.length)],
     });
     res.status(201).json({ response: gadget });
